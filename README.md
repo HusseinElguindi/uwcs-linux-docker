@@ -11,3 +11,8 @@ After cloning the repository and installing Docker:
 - Run a container in the current directory, copy the `run_docker.sh` script to your project/assignment directory and execute it with `run_docker.sh`.
 
 You can also create an alias instead of copying the script file.
+
+### Syncing To Remote
+- Copy the `sync_up.sh` file into your assignment directory.
+    - Change the appropriate variables (usually just `WATUSER` and `REMOTEDIR`).
+- To sync up to the remote, run `./sync_up.sh`.
