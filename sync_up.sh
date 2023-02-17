@@ -2,7 +2,7 @@
 # Copies the current directory as an archive to the remote server
 
 WATUSER="yourusername" # uWaterloo username
-REMOTEDIR="~/cs138/a3" # Any remote directory to copy to
+REMOTEDIR="~/cs138/somedirectory" # Any remote directory to copy to
 
 # Extra rsync options (--delete removes files on the remote that are not in your local copy)
 # OPTS="--delete --exclude=.ccls-cache" # uncomment for --delete (ensure that your REMOTEDIR is correct before doing so)
